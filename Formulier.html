@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<body>
+
+   <h1>Aanmelden</h1>
+
+    <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+        lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+<p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+Amsterdam.</em></p>
+
+    <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.</p>
+
+    <p>Voor vragen of opmerkingen kunt u <a href="https://cmd.dmci.hva.nl/NL/Paginas/Wie-Wat-Waar/wie-wat-waar.aspx">contact</a> met ons op nemen.</p>
+
+<form action="http://127.0.0.1:56448/opdracht%201.2/info.html">
+
+
+<fieldset>
+       <legend>Contactgegevens</legend>
+        <label>Naam
+        <input type="text" name="personal"/>
+        </label>
+        <br/>
+        <br/>
+        <label>Bedrijf
+        <input type="text" name="personal"/>
+        </label>
+        <br/>
+        <br/>
+        <label>Adres
+        <input type="text" name="personal"/>
+        </label>
+        <br/>
+        <br/>
+        <label>Postcode
+        <input type= "text" maxlength="6" name="personal"/>
+        </label>
+        <br/>
+        <br/>
+        <label>Plaats
+        <input type= "text" name="personal"/>
+        </label>
+        <br/>
+        <br/>
+        <label>Telefoon
+        <input type="number" name="personal"/>
+        </label>
+        <br/>
+        <br/>
+        <label>Email
+        <input type="email" name="personal"/>
+        </label>
+        <br/>
+        <br/>
+        <input type="submit" name="stage"/>
+</fieldset>
+
+<fieldset>
+    <legend>Ik wil mij aanmelden</legend>
+    <label><input type= "radio" name="project" value="project"/>Voor project</label>
+    <label><input type= "radio" name="stage" value="Stagebedrijf"/> Als stagebedrijf</label>
+</fieldset>
+
+<fieldset>
+    <legend>Project</legend>
+    <label>Titel
+    <input type="text" name="project" maxlength="100"/>
+    </label>
+    <br/>
+    <br/>
+    <label>Opdrachtomschrijving
+    <input type="text" name="project"/>
+    </label>
+    <br/>
+    <br/>
+    <label>Doelgroepomschrijving
+    <input type="text" name="project"/>
+    </label>
+    <br/>
+    <br/>
+    <label>Doelstelling
+    <input type="text" name="project"/>
+    </label>
+    <br/>
+    <br/>
+    <label>Looptijd
+    <input type="date" name="project"/>
+    </label>
+    <br/>
+    <br/>
+    <label>Deadline
+    <input type="date" name="project"/>
+    </label>
+    <br/>
+    <br/>
+    <label>Geschikt voor:</label>
+    <br/>
+
+    <label><input type="checkbox" name="project" value="Eerstejaars studenten"/>Eerstejaars studenten</label>
+    <br/>
+
+    <label><input type="checkbox" name="project" value="Tweedejaars studenten"/>Tweedejaars studenten</label>
+    <br/>
+
+    <label><input type="checkbox" name="project" value="Derdejaars studenten"/>Derdejaars studenten</label>
+    <br/>
+
+    <label><input type="checkbox" name="project" value="Afstudeer studenten"/>Afstudeer studenten</label>
+    <br/>
+
+    <label><input type="checkbox" name="project" value="Onbekend"/>Onbekend</label>
+    <br/>
+    <br/>
+
+    <label>Opmerkingen
+    <br/>
+    <br/>
+    <textarea cols="60" rows="8" name="project"></textarea>
+    </label>
+    <br />
+    <br />
+    <input type="submit" name="stage"/>
+
+    </fieldset>
+    <br/>
+    <br/>
+
+<fieldset>
+<legend>Stagebedrijf</legend>
+    <label>Geschikt voor</label>
+    <br />
+    <label><input type="radio" name="stage" value="Tweedejaars studenten"/>Tweedejaars studenten</label>
+    <label><input type="radio" name="stage" value="Afstudeer studenten"/>Afstudeer studenten</label>
+    <br />
+    <br />
+    Hoe lang is de stage
+    <br />
+    <label><input type="radio" name="stage" value="10 weken"/>10 weken</label>
+    <label><input type="radio" name="stage" value="20 weken"/>20 weken</label>
+    <br />
+    <br />
+    <label>Begindatum
+    <input type="date" name="stage"/>
+    </label>
+    <br />
+    <br />
+    <label>Beschrijving werkzaamheden
+    <br />
+    <textarea cols="60" rows="8" name="stage"></textarea>
+    </label>
+    <br />
+    <br />
+    <h3>Beschrijving stagebedrijf</h3>
+
+    <label>Bedrijfsnaam
+    <input type="text" name="stage"/>
+    </label>
+    <br />
+    <br />
+    <label>Adres
+    <input type="text" name="stage"/>
+    </label>
+    <br />
+    <br />
+    <label>Postcode
+    <input type="text" maxlength="6" name="stage"/>
+    </label>
+    <br />
+    <br />
+    <label>Plaats
+    <input type="text" name="stage"/>
+    </label>
+    <br />
+    <br />
+    <label>Sector
+    <input type="text" name="stage"/>
+    </label>
+    <br />
+    <br />
+    <label>Core Business
+    <input type="text" name="stage"/>
+    </label>
+    <br />
+    <br />
+    <label>Opmerkingen
+    <br />
+    <br />
+    <textarea cols="60" rows="8" name="stage"></textarea>
+    </label>
+    <br />
+    <br />
+    <input type="submit" name="stage"/>
+
+
+</fieldset>
+
+    </form>
+</body>
+</html>
